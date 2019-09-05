@@ -1,0 +1,8 @@
+docker-compose up // up from compose file
+docker-compose exec -u root // run from root user
+
+docker build -t assignment1 .
+docker run -p 80:3000 assignment1
+
+hub.docker.com - docker hub ))
+docker build -t centos-node .
